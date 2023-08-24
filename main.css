@@ -1,12 +1,12 @@
-/********************************************************
+/*
 * Description: Primary style sheet for Valleytownhall.com
 * Author:      oscar mendez
-********************************************************/
+*/
 body {
     background-color: #FACD8A;     /* This is a shade of orange.    */
 
 }
-.content {background-color: blu}
+.content { background-color: blu; /*"blu" is not a valid color value. It shoulde be "blue".*/ }
 h1 {
     color: #363636
 }
